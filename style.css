@@ -1,0 +1,57 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+.main-box {
+  max-width: 360px;
+  max-height: 588px;
+  width: 360px;
+  height: 588px;
+  border: 3px solid black;
+  border-radius: 2%;
+  gap: 60px;
+}
+.pizza {
+  width: 360px;
+  height: 215px;
+}
+.peperoni {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.icons-1 {
+  padding-left: 280px;
+}
+.first-p {
+  font-style: italic;
+}
+
+.pizza-p {
+  padding-top: 30px;
+  justify-content: center;
+  justify-content: space-between;
+  display: flex;
+}
+.money {
+  padding-top: 120px;
+  font-size: xx-large;
+}
+.before-sale {
+  font-size: large;
+  color: red;
+  text-decoration: line-through 1.7px red;
+}
+.order-1 {
+  height: fit-content;
+  margin-left: 100px;
+  background-color: green;
+  padding: 10px 20px 10px 20px;
+  color: aliceblue;
+  font-style: italic;
+}
